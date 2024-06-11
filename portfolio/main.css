@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section*/
+
+.head{
+    color:white;
+    margin-right: 50px;
+    text-decoration: none;
+    font-family:Trebuchet MS;
+}
+.container{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+i{
+    color:#c9184a;
+    
+}
+.name{
+     color:#c9184a; 
+    font-family: cursive;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+header{
+    height: 5em;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    
+}
+#col{
+    color: #c9184a;
+}
+
+/* About section*/
+
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("myphoto.jpg");
+    background-size: cover;
+    border: 3px solid #c9184a;
+    position: absolute;
+    top:185px;
+    right:100px;
+    
+}
+
+
+
+
+.all{
+    height: 478px;
+    width: 100%;
+    background-color: #161618; 
+}
+.intro{
+    color:white;
+    font-family:cursive;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+.content{
+    width: 100%;
+    height: 478px;
+
+    
+}
+.inner{
+    width: 750px;
+    font-size:large;
+    position: absolute;
+    top: 290px;
+    left: 80px;
+    color: #bfc0c0;
+    font-family: cursive;
+}
+.icons{
+    
+    position: absolute;
+    left: 370px;
+    top: 440px;   
+}
+.ic{
+    margin-right: 25px;
+}
+
+/* Education section*/
+
+
+
+.edu{
+    width: 100%;
+    height: 500px;
+    background-color: #161618; 
+}
+.education{
+    
+    color: white;
+    font-family: cursive;
+    text-decoration: underline #c9184a;
+    position: absolute;
+    left: 130px;
+}
+#educon{
+    position: absolute;
+    left: 85px;
+    top: 565px
+}
+.oi{
+   color: #bfc0c0;
+   position: absolute;
+    
+}
+/* Btech section*/
+
+#outerdetails1{
+    width: 800px;;
+    position: absolute;
+    left: 300px;
+    top: 70px;
+    font-family: cursive;
+    font-size: large;  
+}
+#innerdetails1{
+    position: absolute;
+    left:120px;
+    top: 50px;
+    color: #bfc0c0;
+    font-size: large;
+}
+#innerdetails2{
+    position: absolute;
+    left:120px;
+    top: 90px;
+    color: #bfc0c0;
+    font-size: large;
+}
+#out1{
+    font-family: cursive;
+    font-size: larger;
+    color: white;
+}
+#high1{
+    color: #c9184a;
+    font-family: cursive;
+    position: absolute;
+    top: 625px;
+    left: 298px;
+}
+/*Intermediate section*/
+
+#outerdetails2{
+    width: 800px;;
+    position: absolute;
+    left: 300px;
+    top: 215px;
+    font-family: cursive;
+    font-size: large;
+}
+#innerdetails3{
+    position: absolute;
+    left:120px;
+    top: 40px;
+    color: #bfc0c0;
+    font-size: large;
+}
+#innerdetails4{
+    position: absolute;
+    left:120px;
+    top: 70px;
+    color: #bfc0c0;
+    font-size: large;
+}
+#out2{
+    font-family: cursive;
+    font-size: larger;
+    color: white;
+}
+#high2{
+    color: #c9184a;
+    font-family: cursive;
+    position: absolute;
+    top:771px;
+    left: 300px;
+}
+/*10th Section*/
+
+
+#outerdetails3{
+    width: 800px;;
+    position: absolute;
+    left: 300px;
+    top: 330px;
+    font-family: cursive;
+    font-size: large;
+}
+#innerdetails5{
+    position: absolute;
+    left:120px;
+    top: 40px;
+    color: #bfc0c0;
+    font-size: large;
+}
+#innerdetails6{
+    position: absolute;
+    left:120px;
+    top: 70px;
+    color: #bfc0c0;
+    font-size: large;
+}
+#out3{
+    font-family: cursive;
+    font-size: larger;
+    color: white;
+}
+#high3{
+    color: #c9184a;
+    font-family: cursive;
+    position: absolute;
+    top:882px;
+    left: 300px;
+}
+
+
+/*Skills section*/
+
+.skills{
+    width: 100%;
+    height: 550px;
+    background-color: #161618;
+}
+#skillicon{
+    position: absolute;
+    top: 1071px;
+    left:90px;
+}
+#skillhead{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    top:1062px;
+    left: 136px;
+    text-decoration: underline #c9184a;
+}
+
+.web{
+    width: 300px;
+    height: 170px;
+    background-image: url("webimage.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 150px;
+    top: 1150px;
+    border-radius: 20px;
+}
+.probsol{
+    width: 300px;
+    height: 170px;
+    background-image: url("probsolimage.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 1150px;
+    left: 520px;
+    border-radius: 20px;
+}
+.dsa{
+    width: 300px;
+    height: 170px;
+    background-image: url("zdsa.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 885px;
+}
+.softdev{
+    width: 395px;
+    height: 170px;
+    background-image: url("sdimage.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 1380px;
+    left: 250px;
+
+}
+.aiml{
+    width: 395px;
+    height: 170px;
+    background-image: url("zaimlimage.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 1380px;
+    left: 720px;
+}
+
+/* Programming languages section*/
+
+.prog{
+    width: 100%;
+    height: 300px;
+    background-color: #161618;
+}
+#procon{
+    position: absolute;
+    top: 1648px;
+    left: 100px;
+
+}
+.programming{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    top: 1640px;
+    left: 160px;
+    text-decoration: underline #c9184a;
+}
+.procons{
+    width: 100%;
+    position: absolute;
+    top: 1740px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.iconames{
+    width: 100%;
+    color: #bfc0c0;
+    font-family: cursive;
+    position: absolute;
+    top: 1850px;
+    display: flex;
+}
+#pyconname{
+    position: absolute;
+    left: 145px;
+}
+#javaconname{
+    position: absolute;
+    left: 380px;
+}
+#htmlconname{
+    position: absolute;
+    left: 606px;
+}
+#cssconname{
+    position: absolute;
+    left: 839px;
+}
+#jsconname{
+    position: absolute;
+    right:125px;
+}
+
+
+/* Courses and Certifications*/
+
+.cert{
+    width: 100%;
+    height: 400px;
+    background-color: #161618;
+}
+.certhead{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    top: 1960px;
+    left: 160px;
+    text-decoration: underline #c9184a;
+
+}
+#certcon{
+    position: absolute;
+    top: 1960px;
+    left: 100px;
+}
+.certs{
+    color: #bfc0c0;
+    font-family: cursive;
+    position: absolute;
+    top: 2050px;
+    left: 350px;
+    line-height: 35px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Resume downlaod*/
+
+.myresume{
+    width: 100%;
+    height: 250px;
+    background-color: #161618;
+}
+.resumehead{
+    color: white;
+    text-decoration: underline #c9184a;
+    position: absolute;
+    top: 2330px;
+    left: 170px;
+    font-family: cursive;
+}
+#resucon{
+    position: absolute;
+    top: 2329px;
+    left: 110px;
+}
+#rescontent{
+    color: #bfc0c0;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: larger;
+    position: absolute;
+    top: 2440px;
+    left: 250px;
+}
+.view{
+    width: 100px;
+    height: 50px;
+    background-color: #c9184a;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    top: 2425px;
+    left: 700px;
+}
+#viewcon{
+    color: white;
+}
+#viewlink{
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    padding: 7px;
+}
+.download{
+    width: 150px;
+    height: 50px;
+    background-color: #c9184a;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    top: 2425px;
+    left: 850px;
+}
+#downloadcon{
+    color: white;
+}
+#downloadlink{
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    padding: 8px;
+}
+
+/* contact and copyright */
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+#mailid{
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+    position: absolute;
+    top: 2590px;
+    left: 100px;
+}
+
+#mailcon{
+    position: absolute;
+    top: 2589px;
+    left: 60px;
+}
+
+#phonecon{
+    position: absolute;
+    top: 2589px;
+    left: 390px;
+}
+#phoneid{
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+    position: absolute;
+    top: 2590px;
+    left: 430px;
+}
+
+#locicon{
+    position: absolute;
+    top: 2588px;
+    left: 635px;
+}
+#location{
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: 2590px;
+    left: 670px;
+}
+
+#licon{
+    position: absolute;
+    top: 2589px;
+    right: 380px;
+}
+#liid{
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: 2591px;
+    right: 290px;
+    text-decoration: none;
+}
+#gitcon{
+    position: absolute;
+    top: 2590px;
+    right: 190px;
+}
+#gitid{
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    top: 2591px;
+    right: 120px;
+    text-decoration: none;
+}
+#feed{
+    width: 600px;
+    height: 200px;
+    background-color: #161618;
+    color: white;
+    position: absolute;
+    top: 2660px;
+    left: 100px;
+    border-radius: 10px;
+}
+.thank{
+    color: #c9184a;
+    font-family:cursive;
+    position: absolute;
+    top: 2710px;
+    right: 180px;
+    font-size: 3em;
+}
+.help{
+    color: white;
+    font-family:cursive;
+    position: absolute;
+    top: 2780px;
+    right: 100px;
+}
+#copyrighticon{
+    position: absolute;
+    top: 2920px;
+    left: 395px;
+}
+.copyrights{
+    color: white;
+    font-family:Trebuchet MS;
+    position: absolute;
+    top: 2913px;
+    left: 420px;
+}
